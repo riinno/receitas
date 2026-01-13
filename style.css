@@ -17,9 +17,9 @@ p
 
 body 
 {
-  background-color: #573824;
-  background-image: url(assets/bg-image.jpg);
+  background-image: url(assets/bg-image.png);
   background-size: cover;
+  background-color: rgb(87, 56, 36);
 }
 
 #container 
@@ -46,7 +46,6 @@ main
 
 h1 
 {
-  line-height: 140%;
   font-size: 40px;
 }
 
