@@ -1,3 +1,9 @@
+:root 
+{
+  font-family: "Alice", serif;
+  line-height: 150%;
+}
+
 p 
 {
   text-align: justify;
@@ -5,6 +11,7 @@ p
 
 body 
 {
+  background-color: #573824;
   background-image: url(assets/bg-image.jpg);
   background-size: cover;
 }
@@ -29,4 +36,25 @@ main
 #main-image
 {
   border-radius: 16px;
+}
+
+h1 
+{
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 
+{
+  font-size: 24px;
+}
+
+#text-primary
+{
+  color: #291B1A;
+}
+
+#text-secondary 
+{
+   color: #573A37;
 }
