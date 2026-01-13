@@ -1,3 +1,9 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
 :root 
 {
   font-family: "Alice", serif;
@@ -28,14 +34,14 @@ body
   box-sizing: border-box;
 }
 
-main 
-{
-  padding: 24px;
-}
-
 #main-image
 {
   border-radius: 16px;
+}
+
+main 
+{
+  padding: 24px;
 }
 
 h1 
@@ -52,9 +58,27 @@ h2
 #text-primary
 {
   color: #291B1A;
+  font-weight: 400;
+  margin-bottom: 4px;
+  line-height: 150%;
 }
 
 #text-secondary 
 {
    color: #573A37;
+}
+
+p + p 
+{
+  margin-top: 12px;
+}
+
+section + section 
+{
+  margin-top: 24px;
+}
+
+ul 
+{
+  margin-left: 24px;
 }
